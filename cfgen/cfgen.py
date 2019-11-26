@@ -179,7 +179,6 @@ class GrammarModel(object):
                 for badchar in excluded_items2:
                     data = data.replace(badchar, '')
                 corpus.append(data)
-                print('LKJSLFKJDS')
 
         if make_lowercase:
             corpus = [i.lower() for i in corpus]
